@@ -2,6 +2,14 @@ Git Commands to become a pro
 ============
 _Great git commands for improve your skills ...and that sometimes I forget_
 
+### Daily commands
+| Command | Description |
+| ------- | ----------- |
+|`git add . -p`| allows to stage piece of code |
+|`git stash show -p` | show diff in last stash|
+|`git stash show -p stash@{1}` | show diff in stash@{1}|
+|`git checkout -- <file>`| WARNING revert the `<file>` in working directory. It is distructive command |
+
 ### Basic Configuration
 #### System level
 
