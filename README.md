@@ -16,7 +16,7 @@ _Great git commands for improve your skills ...and that sometimes I forget_
 
 | Command | Description |
 | ------- | ----------- |
-| `git config --local credential.helper=store` | Store password forever |
+| `git config --local credential.helper store` | Store password forever |
 | `git config --system core.editor vim` | Set vim editor for system |
 
 ### System level
