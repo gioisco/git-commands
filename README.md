@@ -19,6 +19,11 @@ _Great git commands for improve your skills ...and that sometimes I forget_
 | `git config --local credential.helper store` | Store password forever |
 | `git config --system core.editor vim` | Set vim editor for system |
 
+### Custom config
+| Task | Command | Description |
+| ---- | ------- | ----------- |
+| Create alias |`git config --global alias.s 'status'`|Add alias `s` for call `git status` with `git s` (also with autocomplete)|
+
 ### System level
 
 Stored in `/etc/gitconfig` (if present). Need sudo permissions.
